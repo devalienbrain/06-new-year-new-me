@@ -86,6 +86,14 @@
   margin-bottom: 3%;
 }
 
+.sec1-part2 ul {
+  list-style: none;
+}
+
+.sec1-part2 ul li:before {
+  content: '✓ ';
+}
+
 .sec1-part2 ul li {
   margin-bottom: 3%;
 }

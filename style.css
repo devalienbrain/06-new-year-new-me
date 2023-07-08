@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.common-btn {
+  border-radius: 2%;
+  background: #FFF;
+  padding: 3% 5%;
+  border: 0;
+  color: #005FAC;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* HEADER STYLE STARTS */
+.header {
+  background-image: url('images/banner/banner3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: lightgray;
+}
+
+.head-content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 51%;
+  padding-right: 11%;
+  padding-top: 11%;
+  padding-bottom: 11%;
+  align-items: end;
+  text-align: right;
+  color: #FFF;
+}
+
+.head-content h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 1%;
+}
+
+.head-content small {
+  font-size: 11px;
+  font-weight: 400;
+}
+
+/* HEADER PART STYLE ENDS */
+
+.main-body-sections {
+  margin: 7% 11%;
+}
+
+/* SECTION PART-1 STYLE STARTS */
+.section-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  gap: 7%;
+}
+
+.sec1-part1,
+.sec1-part2 {
+  flex: 50%;
+}
+
+.sec1-part2 {
+  display: flex;
+  flex-direction: column;
+  column-gap: 3%;
+}
+
+.sec1-part2 h2 {
+  color: #151414;
+  font-size: 34px;
+  font-weight: 600;
+  padding: 1%;
+  margin-bottom: 3%;
+}
+
+.sec1-part2 small,
+.sec1-part2 ul {
+  color: #444343;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 1%;
+  margin-bottom: 3%;
+}
+
+.sec1-part2 ul li {
+  margin-bottom: 3%;
+}
+
+/* SECTION PART-1 STYLE ENDS */
+
+/* SECTION PART-2 STYLE STARTS */
+.section-2 {
+  text-align: center;
+  margin-top: 8%;
+}
+
+.section2-head {
+  margin-bottom: 2%;
+  padding: 2%;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* SECTION PART-2 STYLE ENDS */
+
+/* SECTION PART-3 STYLE STARTS */
+.section-3 {
+  margin-top: 8%;
+  background-image: url('images/watch.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 5%;
+  position: relative;
+}
+
+.absolute-div {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+
+.absolute-div h2 {
+  color: #FFF;
+  font-size: 34px;
+  font-weight: 600;
+  padding-bottom: 1%;
+  margin-bottom: 5%;
+}
+
+/* SECTION PART-3 STYLE ENDS */
+
+/* FOOTER STYLE STARTS */
+footer {
+  background: #151414;
+  height: 420px;
+  color: white;
+  padding-top: 2%;
+}
+
+.foot-container {
+  margin: 7% 11%;
+  display: flex;
+  justify-content: space-around;
+  gap: 15%;
+}
+
+.foot-icon {
+  width: 10%;
+}
+
+.foot-left {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+footer input {
+  background: #151414;
+  color: #FFF;
+  padding: 5% 7%;
+}
+
+.foot-right button {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  background: #005FAC;
+  padding: 7% 10%;
+  border: 0;
+}
+
+/* FOOTER STYLE ENDS */

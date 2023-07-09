@@ -19,6 +19,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-color: lightgray;
+  height: 75vh;
 }
 
 .head-content {
@@ -170,9 +171,10 @@ footer {
 }
 
 footer input {
-  background: #151414;
-  color: #FFF;
-  padding: 5% 7%;
+  background: #FFF;
+  color: #151414;
+  padding: 5% 10%;
+  border: 0;
 }
 
 .foot-right button {
